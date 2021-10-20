@@ -1,0 +1,301 @@
+.wrapper{
+    background-image: linear-gradient(135deg, #404040, #8E8CA1, #1f262d);
+    font-family:'Changa',
+    sans-serif;
+}
+
+/*Index*/
+/*Menu*/
+.navbar{
+    background-color: #1f262d;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8E8CA1;
+    text-transform: uppercase;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    margin-right: 50px;
+}
+
+/*Main Page*/
+.mainpage h1{
+    margin: 20px;
+    color:#ffffff;
+    text-align: center;
+}
+
+.mainpage hr{
+    color:#ffffff;
+}
+
+.about p{
+    color:#ffffff;
+    font-family: 'Barlow',
+    sans-serif;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+
+}
+
+.carousel-inner .carousel-caption h1{
+    color:#000000;
+    text-align: left;
+}
+
+.carousel-inner .carousel-caption p {
+    color: #000000;
+    text-align: left;
+    font-size: 25px;
+}
+
+.carousel-inner .carousel-caption .btn {
+    margin-left: 0;
+    float: left;
+}
+
+.borderslides{
+    border: 2px solid black;
+}
+
+/*Footer*/
+.footer {
+    color:#ffffff;
+    background-color: #1f262d;
+    justify-content: space-between;
+    font-family: 'Barlow',
+    sans-serif;
+}
+
+.footer-logo{
+    padding-top: 20px;
+}
+
+.rights-text a{
+    color:#ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+/*Content Videos*/
+.cntvideo{
+    display: flex;
+    width: 100%;
+}
+
+.cntvideo iframe{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+}
+
+/*Statistics*/
+.statistics{
+    width: 100%;
+}
+.stat{
+    display: flex;
+}
+.statitem{
+    flex: 1 1 0;
+    padding: 70px 25px;
+    border-left: 1px solid white;
+    text-align: center;
+    color: white;
+}
+.statitem:last-child{
+    border-right: 1px solid gray;
+}
+.statcount{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.stattext{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*rows*/
+.rows {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.rows-name {
+    width: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid silver;
+}
+
+/* News.html Search button*/
+
+
+.newstext {
+    text-align: center;
+    color:#ffffff;
+}
+
+.poster ul {
+    column-count: 2;
+    list-style-type: none;
+    text-align: center;
+}
+
+.poster {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.poster ul li .hllwn{
+    margin-left: 100px;
+}
+
+.poster ul li img:hover {
+    transform: scale(1.1);
+}
+
+/*lines*/
+.lines {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lines-name {
+    width: 40%;
+    margin-left: 75px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-top: 3px solid silver;
+}
+
+/* кнопка */
+.btn {
+    padding: 8px 30px;
+    border: 3px solid silver;
+    font-size: 14px;
+    font-weight: 700;
+    color: silver;
+    text-transform: uppercase;
+    background-color: silver;
+    margin-top: 0px;
+}
+
+.btn:hover {
+    transition: background 0.3s;
+}
+
+.lain {
+    border-top: 3px solid silver;
+    width: 100%;
+}
+
+.posternew ul {
+    column-count: 3;
+    list-style-type: none;
+    text-align: center;
+}
+
+.posternew {
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+}
+
+.posternew ul li img:hover {
+    transform: scale(1.1);
+}
+
+.gta5 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.rome {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*faq.html*/
+.faq {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+
+}
+
+.details-cont {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.details-cont :hover {
+    color: silver;
+    transition: .3s;
+}
+
+/*Store*/
+.store_header{
+    color:#ffffff;
+    text-align: center;
+    font-family: 'Barlow',
+    sans-serif;
+}
+
+.catalog{
+    background-color: #5e7387;
+    display: block;
+    font-family: 'Barlow',
+    sans-serif;
+    padding-bottom: 20px;
+    align-items:center;
+}
+
+.gamecont{
+    text-decoration: none;
+}
+
+.card{
+    margin: 20px;
+    width: 100%;
+}
+
+.card-body{
+    color:#ffffff;
+    padding: 40px;
+}
+
+.gamecont img{
+    max-width: 150px;
+}
